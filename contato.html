@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Meu Primeiro Site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li>
-        <a href="index.html">Inicio</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Converse comigo</h1>
+    <hr>
+    <h1 class = "center">Converse comigo</h1>
+    
+    <div class="container">
     <form>
         <label for="nome">Nome :</label><br>
         <input type="text" id="nome">
@@ -28,14 +28,35 @@
         <br>
         <button>Enviar</button>
     </form>
+    <div class= "ml">
+        <h2>Endereço : </h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1612888665564!6m8!1m7!1st9wCFDcRJnKoiYTfnClD7w!2m2!1d46.0878772278208!2d-64.77343622645613!3f205.6825344233579!4f14.151845064405606!5f0.5766949900117937" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
+    </div>
+</div>
 
-    <h2>Endereço</h2>
+    
 
-    <p>Moncton,NB,Canadá</p>
-   
-    <p>Av. Assonption Blvd</p>
+  
 
+    <hr>
+    <footer >
+        <div class = "container"  >
+            <a href="https://www.facebook.com/">
+            <img class = "tm  " src="assets/imgs/facebook.png" alt="facebook">
+        </a>
+            <a href="https://www.instagram.com/">
+                <img class = "tm " src="assets/imgs/instagram.png" alt="instagram">
+            </a>
+            <a href="https://whatsapp.com/">
+            <img class = "tm " src="assets/imgs/whatsapp.png" alt="hatsapp">
+        </a>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!4v1612888665564!6m8!1m7!1st9wCFDcRJnKoiYTfnClD7w!2m2!1d46.0878772278208!2d-64.77343622645613!3f205.6825344233579!4f14.151845064405606!5f0.5766949900117937" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+        </div>
+        <p class="center cor">
+            Daniel Filho &copy;
+        </p>
+      
+    </footer>
+     
 </body>
 </html>

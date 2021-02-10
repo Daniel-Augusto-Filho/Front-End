@@ -1,0 +1,68 @@
+/*
+Centraliza o titulo 1 "h1"
+
+*/
+body
+{
+    background-image:url(https://images4.alphacoders.com/289/thumb-1920-289968.jpg) ;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.container 
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+   
+}
+#menu li
+{
+    display: inline;
+    padding: 40px;
+}
+#menu li a
+{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+#menu li a:hover
+{
+    color:chartreuse;
+}
+.afastaDasBordas
+{
+    padding: 40px;
+}
+.arredondador
+{
+    border-radius: 50%;
+}
+.wh
+{
+    height: 200px ;
+    width: 200px;
+}
+.tm
+{
+    height: 40x ;
+    width: 40px;
+    padding: 40px;
+   
+    
+}
+.ml
+{
+    margin-left: 50px;
+}
+.cor
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
